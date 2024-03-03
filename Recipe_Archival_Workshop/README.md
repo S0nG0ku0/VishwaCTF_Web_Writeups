@@ -1,6 +1,17 @@
 # Recipe Archival Workshop
 
-## DESCRIPTION
-New interns in the Recipe Archival Workshop have a simple task- upload images of yummy delicacies and dream about tasting them some day.
+## Description
 
-* Just download a list of extension and bruteforce it until give me the flag
+Welcome to the Recipe Archival Workshop! Our new interns have a simple task: upload images of delicious delicacies and dream about tasting them someday.
+
+## Task
+
+Your task is to download a list of file extensions and brute force them until you find the flag.
+
+## Instructions
+
+1. Download a list of file extensions to use for the brute force attack.
+
+2. Set up your brute force tool to iterate through the list of extensions.
+
+3. Upload each extension to the target system until you discover the flag.
