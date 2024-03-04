@@ -9,7 +9,7 @@ But recently some hackers took control of our server and changed a hell lot of t
 
 Have a look at our pharmacy and hope we grow again soon.
 
-#### Steps:
+#### Solution:
 
 - Firstly, I conducted an SQL injection attack on the login page using this payload: 'OR pass LIKE '%. This allowed me to retrieve all users in the database.
 

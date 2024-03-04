@@ -4,7 +4,7 @@
 
 Prepare yourselves for the imminent threat! An aesthetically pleasing army of 128 Robots, armed with AGI capabilities, is on the march to destroy our locality!
 
-## Steps:
+## Solution:
 
 1. **Finding the 'Click Me' Button**:
     Locate a website featuring a button labeled 'Click Me'. Upon clicking it, I was redirected to `/Error.php`. However, upon inspecting a hidden div, I discovered instructions instructing me to change the User Agent to 'IITIAN'.

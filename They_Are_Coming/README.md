@@ -4,7 +4,7 @@
 
 Prepare yourselves for the imminent threat! An aesthetically pleasing army of 128 Robots, armed with AGI capabilities, is on the march to destroy our locality!
 
-## Steps:
+## Solution:
 
 1. **Locating `/robots.txt`**: 
     ```plaintext
