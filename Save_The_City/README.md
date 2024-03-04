@@ -6,7 +6,7 @@ The RAW Has Got An Input That ISIS Has Planted a Bomb Somewhere In The Pune! For
 
 ## Introduction
 
-Upon connecting via netcat (`nc`), the server provides the name of the libSSH library. If the output is 0.8.1, 0.7.5, 0.6.*, or lower, the server is vulnerable to CVE-2018-10933.
+Upon connecting via netcat (`nc`), the server provides the name of the libSSH library. If the output is 0.8.1, 0.7.5, 0.6.*, or lower, the server is vulnerable to CVE-2018-10993 or CVE-2018-10933
 
 ### Installation
 
