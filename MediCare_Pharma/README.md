@@ -18,3 +18,5 @@ Have a look at our pharmacy and hope we grow again soon.
 - Thirdly, while inspecting the JavaScript script on the web page, I discovered that if I purchase a needle with a quantity greater than 0, the site provides me with a file named upload.php.
 
 - Lastly, I found that by entering any command line into the search tab on upload.php, I could execute it. This led me to discover the flag located in /root/flag.txt.
+
+> Flag: VishwaCTF{d1g1t4l_p41n_di5p4tch3d_th4nk5_f0r_sh0pp1ng_with_M3diC4re_Ph4rm4}
