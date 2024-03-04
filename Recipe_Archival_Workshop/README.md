@@ -15,3 +15,5 @@ Your task is to download a list of file extensions and brute force them until yo
 2. Set up your brute force tool to iterate through the list of extensions.
 
 3. Upload each extension to the target system until you discover the flag.
+
+> Flag: VishwaCTF{today_i_wanted_to_eat_a_croissant_QUASO}
