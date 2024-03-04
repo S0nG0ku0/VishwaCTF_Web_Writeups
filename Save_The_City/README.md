@@ -17,8 +17,7 @@ https://gist.github.com/mgeeky/a7271536b1d815acfb8060fd8b65bd5d
 ```
 
 ### Usage 
-
-- Navigate to the cloned directory. 
+ 
 - Run the exploit script with the appropriate parameters: 
 
 ```py
