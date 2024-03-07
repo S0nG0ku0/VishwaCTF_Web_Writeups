@@ -7,7 +7,7 @@ IIT kharakpur is organizing a US Industrial Visit. The cost of the registration 
 ## Solution:
 
 1. **Finding the 'Click Here' Button**:
-    Locate a website featuring a button labeled 'Click Here'. Upon clicking it, I was redirected to `/Error.php`. However, upon inspecting a hidden div, I discovered instructions instructing me to change the User Agent to 'IITIAN'.
+    Locate a website featuring a button labeled 'Click Here'. Upon clicking it, I was redirected to `/Error.php`. However, upon inspecting a hidden img, I discovered instructions instructing me to change the User Agent to 'IITIAN'.
 
 ![Home Page](../images/home_page.png)
 ![Error Page](../images/Error_page.png)
